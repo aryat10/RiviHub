@@ -1,6 +1,7 @@
 import React from "react";
 import herostyles from "@/app/styles/herosection.module.css"
 import styles from "@/app/styles/common.module.css"
+import Image from "next/image";
 
 const Herosection = () =>{
    return (
@@ -20,7 +21,7 @@ const Herosection = () =>{
                 </div>
 
                 <div className="{heroStyles.hero_image">
-                    
+                    <Image src="/about1.svg" alt="watching photo" width={500} height={500}/>
                 </div>
 
             </div>
